@@ -5,7 +5,8 @@ export const cardsScreenPlayer = ( playerCards) => {
 
     playerCards.map((card) => {
         let cardImg = document.createElement('img')
-        cardImg.src += `../cards/card${card.Type}${card.card}.png`
+        cardImg.src += "../cards/card"+card.Type+card.card+".png"
+        
         player.appendChild(cardImg)
     })    
 
