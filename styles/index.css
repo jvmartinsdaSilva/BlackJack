@@ -134,13 +134,14 @@ button.btnStop{
     height: 150px;
     background: white;
     border-radius: 10px;
+    font-size: 16px;
     font-family: arial;
     padding: 10px;
     text-align: center;
 }
 
 .modal button{
-    margin-top: 50px;
+    margin-top: 5%;
     width: 120px;
     height: 30px;
     border-radius: 5px;
