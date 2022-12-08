@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/MediaQuery.css">
+    <script type="module" src="scripts/index.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="game">
+            <div class="title">
+                <h1>BLACK JACK</h1>
+            </div>
+            <div class="players">
+                <div class="crupie">
+                    <h2>Crupie:</h2>
+                    <div id="crupieCards"class="cardsContainer"></div>
+                </div>
+                <div  class="player">
+                    <h2>Your:</h2>
+                    <div id="playerCards" class="cardsContainer"></div>
+                </div>
+                <div class="plaier"></div>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="crupiePoints">
+                <h2>Crupie Points: </h2>
+                <span id="crupiePointsNumber" class="crupiePointsNumber"></span>
+            </div>
+            <div class="Cards">
+                <img src="./cards/cardBackRed4.png" />
+                <button id="btnBuy" class="btnBuy">Buy</button>
+                <button id="btnStop" class="btnStop">Stop</button>
+            </div>
+            <div class="playerPoints">
+                <h2>Your points: </h2>
+                <span id="playerPointsNumber" class="playerPointsNumber">20</span>
+            </div>
+            
+        </div>
+    </div>
+
+    <div id="modal" class="modal">
+        <div  class="messageContainer">
+            <h2 id="MessageText">Result Game</h2>
+            <button id="btnReset" class="reset">Reset</button>
+        </div>
+    </div>
+
+    
+</body>
+</html>

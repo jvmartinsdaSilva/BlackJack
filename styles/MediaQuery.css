@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1024px) {
+    .game .cardsContainer > img{
+        width: 15%;
+        margin: 5px;
+    }
+    .messageContainer{
+        margin-top: 100px;
+        width: 50vw;
+    }
+}
