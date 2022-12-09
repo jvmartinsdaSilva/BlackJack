@@ -15,11 +15,11 @@ const preLoad = (crupieCards, playerCards) => {
 
 
     let cardImg = document.createElement('img')
-    cardImg.src = `../cards/card${card.Type}${card.card}.png`
+    cardImg.src = `./cards/card${card.Type}${card.card}.png`
     crupier.appendChild(cardImg)
 
     let cardBackImg = document.createElement('img')
-    cardBackImg.src = `../cards/cardBackRed4.png`
+    cardBackImg.src = `./cards/cardBackRed4.png`
     crupier.appendChild(cardBackImg)
 
 
