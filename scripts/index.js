@@ -21,9 +21,8 @@ const game = () => {
     preLoad(crupieCards, playerCards)
     checkPoints(playerCards, playerPoints)
     checkPoints(crupieCards, crupiePoints)
-    checkpreWinner(crupiePoints.textContent, playerPoints.textContent, crupieCards)
-    crupiePoints.innerHTML = '??'
-
+    checkpreWinner(crupiePoints, playerPoints, crupieCards)
+    console.log(crupieCards)
 }
 
 btnBuy.addEventListener('click', () => {
