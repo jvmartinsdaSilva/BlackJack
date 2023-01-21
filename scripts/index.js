@@ -11,6 +11,9 @@ const btnBuy = document.getElementById('btnBuy')
 const btnStop = document.getElementById('btnStop')
 const crupiePoints = document.getElementById('crupiePointsNumber')
 const playerPoints = document.getElementById('playerPointsNumber')
+const btnRules = document.getElementById('btnRules')
+const modalRules = document.getElementById('modalRules')
+const btnCloseRules = document.getElementById('btnCloseRules')
 
 let crupieCards = []
 let playerCards = []
@@ -84,5 +87,15 @@ export const resetGame = () => {
 
     game()
 }
+
+
+btnRules.addEventListener('click', () => {
+    modalRules.style.display = 'flex'
+})
+
+btnCloseRules.addEventListener('click', () => {
+    modalRules.style.display = 'none'
+})
+
 
 game()
