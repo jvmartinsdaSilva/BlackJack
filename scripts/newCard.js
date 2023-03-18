@@ -16,7 +16,8 @@ const newCard = (player) => {
 
     player.push({
         card: card,
-        Type: cardType
+        Type: cardType,
+        cardId: `${card}${cardType}`
     })
 
 }
